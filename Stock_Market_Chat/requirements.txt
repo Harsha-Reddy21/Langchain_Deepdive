@@ -1,0 +1,17 @@
+streamlit
+langchain
+langchain-pinecone
+langchain-openai
+langchain-community
+openai
+pinecone
+yfinance
+requests
+python-dotenv
+pandas
+numpy
+plotly
+newsapi-python
+beautifulsoup4
+lxml
+tiktoken
