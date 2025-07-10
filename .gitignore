@@ -1,0 +1,11 @@
+.env
+env
+node_modules
+node_modules/
+myenv
+myenv/
+venv
+venv/
+credentials.json
+credential.json
+token.json

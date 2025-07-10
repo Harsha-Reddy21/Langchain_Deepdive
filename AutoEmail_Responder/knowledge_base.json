@@ -1,0 +1,133 @@
+{
+    "company_policies": [
+      {
+        "section": "Leave Policy",
+        "items": [
+          { "title": "Sick Leave", "description": "Employees are entitled to 12 days of paid sick leave annually." },
+          { "title": "Casual Leave", "description": "8 days of casual leave are allowed per year, not to be carried forward." },
+          { "title": "Annual Leave", "description": "18 days of earned leave per year; prior approval is required." },
+          { "title": "Emergency Leave", "description": "Can be availed for sudden personal situations with manager approval." },
+          { "title": "Birthday Leave", "description": "1 day special leave granted on birthday month." }
+        ]
+      },
+      {
+        "section": "Remote Work Policy",
+        "items": [
+          { "title": "Remote Days", "description": "Employees may work remotely up to 5 days/month with manager approval." },
+          { "title": "Extended Remote", "description": "Extended remote work allowed only after HR clearance." }
+        ]
+      },
+      {
+        "section": "Attendance Policy",
+        "items": [
+          { "title": "Office Hours", "description": "Office hours are 9:00 AM to 6:00 PM IST." },
+          { "title": "Late Arrivals", "description": "Late arrivals beyond 3 days/month must be justified or adjusted with leave." },
+          { "title": "Swipe Requirement", "description": "Swipe-in/out mandatory for presence logging." }
+        ]
+      },
+      {
+        "section": "Maternity & Paternity Leave",
+        "items": [
+          { "title": "Maternity Leave", "description": "26 weeks of paid maternity leave." },
+          { "title": "Paternity Leave", "description": "7 days of paid paternity leave within 30 days of childbirth." }
+        ]
+      },
+      {
+        "section": "Reimbursement Policy",
+        "items": [
+          { "title": "Expense Claims", "description": "Expense claims must be submitted within 7 days of incurring." },
+          { "title": "Internet Reimbursement", "description": "₹1,000/month for remote employees (submit bill)." },
+          { "title": "Travel Booking", "description": "All travel must be pre-approved and booked via the official portal." }
+        ]
+      },
+      {
+        "section": "Dress Code Policy",
+        "items": [
+          { "title": "Weekdays", "description": "Business casuals from Mon–Thu." },
+          { "title": "Fridays", "description": "Smart casuals allowed." },
+          { "title": "Restrictions", "description": "No flip-flops, shorts, or revealing attire." }
+        ]
+      },
+      {
+        "section": "Exit Policy",
+        "items": [
+          { "title": "Notice Period", "description": "30-day notice period is mandatory." },
+          { "title": "Exit Interview", "description": "Exit interview is compulsory." },
+          { "title": "Asset Return", "description": "All company assets to be returned before the last working day." }
+        ]
+      },
+      {
+        "section": "Asset Management Policy",
+        "items": [
+          { "title": "Responsibility", "description": "Employees are responsible for assigned hardware." },
+          { "title": "Loss/Damage", "description": "Must be reported immediately and may incur charges." }
+        ]
+      },
+      {
+        "section": "Grievance & POSH Policy",
+        "items": [
+          { "title": "Reporting", "description": "Inappropriate conduct must be reported to posh@company.com." },
+          { "title": "Confidentiality", "description": "All grievances are handled confidentially." }
+        ]
+      },
+      {
+        "section": "Payroll & Salary Advance",
+        "items": [
+          { "title": "Salary Date", "description": "Salary is credited by the 5th of each month." },
+          { "title": "Advance", "description": "Allowed once per quarter upon approval." }
+        ]
+      }
+    ],
+  
+    "faqs": [
+      { "question": "How do I apply for sick leave?", "answer": "Log in to HRMS and apply under Sick Leave section." },
+      { "question": "How many annual leaves do I have left?", "answer": "Check HRMS > Leave Balance for updated info." },
+      { "question": "Where can I see the holiday list?", "answer": "HRMS > Company > Holidays." },
+      { "question": "Can I work remotely from another city?", "answer": "Yes, with manager and HR approval for more than 5 days." },
+      { "question": "What is the dress code on Fridays?", "answer": "Smart casuals are allowed on Fridays." },
+      { "question": "How to claim internet reimbursement?", "answer": "Upload your bill via HRMS > Claims > Internet." },
+      { "question": "What is the maternity leave policy?", "answer": "26 weeks of paid maternity leave." },
+      { "question": "How can I get my pay slip?", "answer": "Payslips are emailed monthly and accessible via HRMS." },
+      { "question": "What to do if I lost my ID card?", "answer": "Inform Admin and pay ₹300 replacement fee." },
+      { "question": "How to book travel for official trips?", "answer": "Use Concur with manager-approved itinerary." },
+      { "question": "How are promotions decided?", "answer": "Based on performance, need, and appraisal ratings." },
+      { "question": "Can I get a certificate for completed training?", "answer": "Email L&D with course name and date." },
+      { "question": "Can I get a salary advance?", "answer": "Submit Salary Advance form via HRMS." },
+      { "question": "How do I report workplace harassment?", "answer": "Email posh@company.com or contact HR." },
+      { "question": "Can I leave early for an exam?", "answer": "Submit exam schedule and request special leave." },
+      { "question": "Is dental included in insurance?", "answer": "Only in the Premium Plan." },
+      { "question": "Can I work half-day on birthday?", "answer": "Take 1 full day special birthday leave via HRMS." },
+      { "question": "Is team lunch reimbursable?", "answer": "Yes, up to ₹500/person with prior approval." },
+      { "question": "How do I handover company assets during resignation?", "answer": "Contact IT/Admin before your last working day." },
+      { "question": "Can I wear jeans in the office?", "answer": "Yes, on Fridays or casual days." },
+      { "question": "What is the process for resignation?", "answer": "Submit via HRMS and notify manager." },
+      { "question": "When will my laptop be replaced?", "answer": "After 3 years or when declared non-functional." },
+      { "question": "Can I access HRMS from mobile?", "answer": "Yes, available via web and mobile app." },
+      { "question": "What is my UAN for PF check?", "answer": "Check welcome email or ask HR." },
+      { "question": "Who to contact for laptop repairs?", "answer": "Raise a ticket on the IT Helpdesk." }
+    ],
+  
+    "response_templates": [
+      {
+        "template_name": "Leave Approval",
+        "template": "Hi {{name}},\nYour {{leave_type}} has been recorded in our system for {{date_range}}.\nPlease ensure it's updated in the HRMS portal and inform your manager.\nRegards,\nHR Team"
+      },
+      {
+        "template_name": "Policy Explanation",
+        "template": "Hi {{name}},\nAs per our {{policy_name}}, {{policy_summary}}.\nLet us know if you need further clarification.\nBest,\nHR Team"
+      },
+      {
+        "template_name": "Reimbursement Status",
+        "template": "Hi {{name}},\nYour claim for {{claim_type}} has been received. It may take up to {{days}} business days for processing.\nPlease check the status on HRMS > Reimbursements.\nThanks,\nFinance Team"
+      },
+      {
+        "template_name": "POSH Complaint Acknowledgement",
+        "template": "Hi {{name}},\nWe have received your concern. It has been forwarded to the Internal Committee for confidential review.\nPlease expect an update within 3 working days.\nSincerely,\nPOSH Committee"
+      },
+      {
+        "template_name": "Training Certificate",
+        "template": "Hi {{name}},\nThank you for completing {{course_name}} on {{date}}.\nPlease find your certificate attached.\nBest regards,\nL&D Team"
+      }
+    ]
+  }
+  

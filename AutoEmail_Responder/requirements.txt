@@ -1,0 +1,20 @@
+# Google API dependencies
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0
+
+# FastMCP (Model Context Protocol) - mandatory
+fastmcp==0.1.0
+
+# AI and search dependencies
+openai>=1.0.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Caching
+redis>=4.5.0 
